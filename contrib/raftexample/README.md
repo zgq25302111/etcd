@@ -20,6 +20,8 @@ go build -o raftexample
 
 First start a single-member cluster of raftexample:
 
+how and where to execute this commond on windows?
+
 ```sh
 raftexample --id 1 --cluster http://127.0.0.1:12379 --port 12380
 ```
